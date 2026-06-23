@@ -2,50 +2,75 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Aviance Group</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aviance Group</title>
 
-  <!-- Link to CSS file -->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css"/>
 </head>
 
 <body>
 
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="assets/logo.png" alt="Aviance Logo" />
+      <span>Aviance</span>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#mission">Mission</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
   <header class="hero">
-    <h1>The Aviance Group</h1>
-    <p>Building software solutions for impact-driven innovation</p>
-    <a class="btn" href="#about">Learn More</a>
+    <h1>Building Software for Impact</h1>
+    <p>Aviance Group creates digital solutions that empower communities and drive transformation.</p>
+
+    <a class="btn" href="#about">Explore</a>
   </header>
 
-  <div class="container">
+  <!-- ABOUT -->
+  <section id="about" class="section card fade-in">
+    <h2>About Us</h2>
+    <p>
+      Aviance Group is a software development and non-profit initiative focused on building
+      meaningful, scalable technology solutions that solve real-world problems.
+    </p>
+  </section>
 
-    <section id="about" class="card">
-      <h2>About Us</h2>
-      <p>
-        Aviance Group is a software development and non-profit organisation focused on building
-        technology solutions that empower communities and support digital transformation.
-      </p>
-    </section>
+  <!-- SERVICES -->
+  <section id="services" class="section card fade-in">
+    <h2>What We Do</h2>
 
-    <section class="card">
-      <h2>What We Do</h2>
-      <ul>
-        <li>Custom software development</li>
-        <li>Digital transformation consulting</li>
-        <li>Data-driven systems and dashboards</li>
-        <li>Non-profit tech initiatives</li>
-      </ul>
-    </section>
+    <div class="grid">
+      <div class="box">Custom Software Development</div>
+      <div class="box">Digital Transformation</div>
+      <div class="box">Data & Analytics Systems</div>
+      <div class="box">Non-Profit Tech Solutions</div>
+    </div>
+  </section>
 
-    <section class="card">
-      <h2>Contact</h2>
-      <p>Email: hello@aviance.co.za</p>
-    </section>
+  <!-- MISSION -->
+  <section id="mission" class="section card fade-in">
+    <h2>Our Mission</h2>
+    <p>
+      To bridge the gap between technology and social impact by building accessible,
+      scalable and human-centred digital systems.
+    </p>
+  </section>
 
-  </div>
+  <!-- CONTACT -->
+  <section id="contact" class="section card fade-in">
+    <h2>Contact</h2>
+    <p>Email us: hello@aviance.org</p>
+  </section>
 
   <footer>
-    © 2026 Aviance Group. All rights reserved.
+    © 2026 Aviance Group
   </footer>
 
 </body>
